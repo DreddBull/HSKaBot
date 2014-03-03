@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HSKaBot</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_btconnect">BTConnect</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_input_winkel">Eingabe der Winkel</string>
+    <string name="text_winkel1">Schulterwinkel</string>
+    <string name="text_modeAuto">automatik Modus</string>
+    <string name="text_modeManual">manueller Modus</string>
+    <string name="text_modeTeach">Teach-In Modus</string>
+    <string name="text_bt_description">BT Verbindung:</string>
+    <string name="text_bt_status">nicht verbunden</string>
+    <string name="text_bt_button">Verbinden</string>
+    <string name="text_typeAngular">Winkel</string>
+    <string name="text_typeKartesian">Position</string>
+    <string name="text_angle1">Hauptdrehachse</string>
+    <string name="text_angle2">Schultergelenk</string>
+    <string name="text_angle3">Ellenbogengelenk</string>
+    <string name="text_angle4">Handgelenk</string>
+    <string name="text_angle5">Handrotation</string>
+    <string name="text_angle6">Greifer</string>
+    <string name="coordx">X-Koordinate</string>
+    <string name="coordy">Y-Koordinate</string>
+    <string name="coordz">Z-Koordinate</string>
+    <string name="coordr">Handrotation</string>
+    <string name="coordg">Greifer Stellung</string>
+
+</resources>

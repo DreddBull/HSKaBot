@@ -1,0 +1,142 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="de.hs.karlsruhe.hskabot.ws13.MainActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <TextView
+        android:id="@+id/text_btdescr"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:layout_weight="1"
+        android:gravity="right"
+        android:text="@string/text_bt_description"
+        android:textAlignment="textEnd"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/text_btstatus"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_weight="1"
+        android:gravity="left"
+        android:text="@string/text_bt_status"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    </LinearLayout>
+
+    <Button
+    android:id="@+id/btn_btcon"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/button_height"
+    android:layout_marginBottom="25dp"
+    android:layout_marginTop="10dp"
+    android:onClick="btconnect_click"
+    android:text="@string/text_bt_button" />
+    <View
+    android:layout_width="fill_parent"
+    android:layout_height="1dp"
+    android:background="@android:color/darker_gray"/>
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="25dp"
+    android:layout_marginTop="25dp" >
+
+    <TextView
+        android:id="@+id/textAngular"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/text_typeAngular"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textKartesian"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/text_typeKartesian"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    </LinearLayout>
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/button_height"
+    android:layout_gravity="center" >
+
+    <Button
+        android:id="@+id/btn_manwinkel"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="@string/text_modeManual"
+        android:onClick="manwinkel_click" />
+
+    <Button
+        android:id="@+id/btn_manxyz"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="@string/text_modeManual" />
+    </LinearLayout>
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/button_height" >
+
+    <Button
+        android:id="@+id/btn_teachwinkel"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="@string/text_modeTeach" />
+
+    <Button
+        android:id="@+id/btn_teachxyz"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="@string/text_modeTeach" />
+    </LinearLayout>
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/button_height" >
+
+    <Button
+        android:id="@+id/btn_autowinkel"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="@string/text_modeAuto" />
+
+    <Button
+        android:id="@+id/btn_autoxyz"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="@string/text_modeAuto" />
+    </LinearLayout>
+
+</LinearLayout>
